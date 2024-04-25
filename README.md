@@ -7,8 +7,11 @@ It prompts the user to select a directory using a file dialog, extracts the PDF 
 
 ## Requirements:
 Python 3
+
 PyPDF2 library (for PDF handling)
+
 tkinter library (utilized for file dialog)
+
 os library (for file path operations)
 
 ## Files
