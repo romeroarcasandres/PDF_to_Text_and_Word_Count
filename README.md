@@ -3,7 +3,9 @@ It extracts text from PDF files in a selected directory and counts the total num
 
 ## Overview:
 This script extracts the text of PDF files into text files (TXT format) and it generates a new "word-count.txt" file with the individual word counts (per file) and the total word count (the sum of all the files).
-It prompts the user to select a directory using a file dialog, extracts the PDF files text into TXT files with the same name as the PDF files and saves them into a subdirectory named "converted_files". Additionally, the script counts the total number of words in the extracted text files and generates a word-count report in the same subdirectory.
+
+It prompts the user to select a directory using a file dialog, extracts the PDF files text into TXT files with the same name as the PDF files and saves them into a subdirectory named "converted_files". 
+Additionally, the script counts the total number of words in the extracted text files and generates a word-count report in the same subdirectory.
 
 ## Requirements:
 Python 3
@@ -27,7 +29,9 @@ See "PDF_to_Text_and_Word_Count_1.JPG", "PDF_to_Text_and_Word_Count_2.JPG" and "
 
 ## Important Note
 Ensure that the selected directory contains valid editable PDF files.
+
 Accurate text extraction and word count cannot be guaranteed with non-editable PDF files.
+
 The word-count report ("word-count.txt") includes individual file word counts and the overall directory word count.
 
 ## License
